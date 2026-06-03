@@ -43,5 +43,8 @@ backend/models/
 .DS_Store
 Thumbs.db
 
+# ── Design docs (keep local) ──
+docs/
+
 # ── Misc ──
 *.log
