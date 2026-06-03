@@ -4,6 +4,9 @@ frontend/.next/
 .next/
 frontend/.env.local
 
+#开发文档
+docs/
+
 # ── Dev tool config (personal) ──
 CLAUDE.md
 
