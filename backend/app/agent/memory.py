@@ -1,3 +1,4 @@
+from __future__ import annotations
 """Simple conversation memory: stores recent messages for agent context."""
 
 MAX_HISTORY = 20

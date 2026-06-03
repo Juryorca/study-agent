@@ -1,3 +1,4 @@
+from __future__ import annotations
 async def create_study_plan(weak_points: list[dict]) -> str:
     """Generate personalized study plan based on weakness points."""
     from app.services.llm import chat_completion

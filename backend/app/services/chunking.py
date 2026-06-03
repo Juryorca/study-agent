@@ -1,3 +1,4 @@
+from __future__ import annotations
 import tiktoken
 
 CHUNK_SIZE = 512

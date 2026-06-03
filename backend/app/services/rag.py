@@ -1,3 +1,4 @@
+from __future__ import annotations
 from app.services.embedding import embed_texts, get_course_collection
 
 
