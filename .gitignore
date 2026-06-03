@@ -1,0 +1,44 @@
+# ── Frontend build artifacts ──
+frontend/node_modules/
+frontend/.next/
+.next/
+frontend/.env.local
+
+# ── Dev tool config (personal) ──
+CLAUDE.md
+
+# ── Backend Python artifacts ──
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+
+# ── Secrets & runtime config (user-specific) ──
+backend/.env
+backend/.runtime_config.json
+
+# ── Databases (auto-generated, user-specific) ──
+backend/study_agent.db
+backend/study_agent.db-journal
+backend/study_agent.db-wal
+backend/chroma_data/
+
+# ── User uploads ──
+backend/uploads/
+
+# ── Local embedding model (download separately) ──
+backend/models/
+
+# ── IDE / Editor ──
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+
+# ── Misc ──
+*.log
