@@ -1,6 +1,6 @@
 # Study Agent
 
-基于 RAG 与 LLM Tool Calling 的个性化课程复习智能体。
+基于 RAG 与 工具调用 的个性化课程复习智能体。
 
 ## 功能
 
@@ -85,7 +85,7 @@ cd frontend
 npm run dev
 ```
 
-打开 http://localhost:3000 即可使用。
+打开 <http://localhost:3000> 即可使用。
 
 或使用启动脚本（Linux/Mac）：
 
@@ -97,7 +97,7 @@ npm run dev
 
 ### 5. 在浏览器中配置 LLM
 
-启动后打开 http://localhost:3000，点击左下角设置图标，填入 API Key 和 Base URL，或直接编辑 `backend/.env` 后重启后端。
+启动后打开 <http://localhost:3000，点击左下角设置图标，填入> API Key 和 Base URL，或直接编辑 `backend/.env` 后重启后端。
 
 ## 项目结构
 
@@ -144,12 +144,6 @@ agent_for_study/
 | 变量 | 说明 | 默认值 |
 |------|------|--------|
 | `NEXT_PUBLIC_API_URL` | 后端 API 地址 | `http://localhost:8000` |
-
-## API 文档
-
-启动后端后访问 http://localhost:8000/docs 查看 Swagger API 文档。
-
-详细设计见 [docs/api-design.md](docs/api-design.md)。
 
 ## License
 
