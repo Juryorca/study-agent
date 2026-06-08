@@ -31,7 +31,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Juryorca/study-agent.git
 cd agent_for_study
 ```
 
@@ -92,8 +92,6 @@ npm run dev
 ```bash
 ./start.sh
 ```
-
-> 如果使用 conda/mamba 环境，用 `--python /path/to/env/bin/python` 指定 Python 路径。
 
 ### 5. 在浏览器中配置 LLM
 
